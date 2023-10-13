@@ -12,10 +12,11 @@ export default function Footer(props) {
           href="https://henrikcheng.github.io/react-ts/"
           rel="noreferrer"
           target="_blank">
-          © {new Date().getFullYear()} {props?.copyright}
+          ©{/* {new Date().getFullYear()} */}
+          {props?.copyright}
         </a>
       </div>
-      <div className="mt-1 flex justify-center gap-1 text-center text-sm text-gray-500 dark:text-gray-600">
+      {/* <div className="mt-1 flex justify-center gap-1 text-center text-sm text-gray-500 dark:text-gray-600">
         <span>
           Made by{" "}
           <a
@@ -34,9 +35,9 @@ export default function Footer(props) {
             Github
           </a>
         </span>
-      </div>
+      </div> */}
       <div className="mt-2 flex items-center justify-between">
-        <div className="mt-5">
+        <div className="">
           <a
             href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
             target="_blank"
