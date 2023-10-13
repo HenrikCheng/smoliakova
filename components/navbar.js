@@ -32,15 +32,8 @@ export default function Navbar(props) {
       href: "/archive"
     },
     {
-      label: "Pro Version",
-      href: "https://stablo-pro.web3templates.com/",
-      external: true,
-      badge: "new"
-    },
-    {
-      label: "Download",
-      href: "https://web3templates.com/templates/stablo-minimal-blog-website-template",
-      external: true
+      label: "Front-end developer Henrik Cheng",
+      href: "https://henrikcheng.github.io/react-ts/"
     }
   ];
 

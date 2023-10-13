@@ -1,5 +1,6 @@
 import { getSettings } from "@/lib/sanity/client";
 import Footer from "@/components/footer";
+import Hero from "@/components/hero";
 import { urlForImage } from "@/lib/sanity/image";
 import Navbar from "@/components/navbar";
 
@@ -9,14 +10,11 @@ export async function sharedMetaData(params) {
   return {
     // metadataBase: new URL(settings.url),
     title: {
-      default:
-        settings?.title ||
-        "Stablo - Blog Template for Next.js & Sanity CMS",
+      default: settings?.title || "Portfolio - Mariia Smoliakova",
       template: "%s | Stablo"
     },
     description:
-      settings?.description ||
-      "Stablo - popular open-source next.js and sanity blog template",
+      settings?.description || "Architect MSA & Urban Designer",
     keywords: ["Next.js", "Sanity", "Tailwind CSS"],
     authors: [{ name: "Surjith" }],
     canonical: settings?.url,
@@ -51,7 +49,7 @@ export default async function Layout({ children, params }) {
   return (
     <>
       <Navbar {...settings} />
-
+      <Hero />
       <div>{children}</div>
 
       <Footer {...settings} />
