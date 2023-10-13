@@ -12,8 +12,7 @@ export default function Footer(props) {
           href="https://henrikcheng.github.io/react-ts/"
           rel="noreferrer"
           target="_blank">
-          © {new Date().getFullYear()} Henrik Cheng
-          {props?.copyright}. All rights reserved.
+          © {new Date().getFullYear()} {props?.copyright}
         </a>
       </div>
       <div className="mt-1 flex justify-center gap-1 text-center text-sm text-gray-500 dark:text-gray-600">
