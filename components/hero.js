@@ -13,7 +13,7 @@ export default function Hero(props) {
           height={2560}
           className="grayscale"
         />
-        <div className="absolute bottom-0 flex w-full flex-col items-center">
+        <div className="absolute bottom-0 flex w-full flex-col items-center text-black dark:text-black">
           <h1 className="font-mono text-2xl font-bold tracking-widest sm:text-4xl md:text-6xl">
             Portfolio
           </h1>
