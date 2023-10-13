@@ -32,8 +32,8 @@ export default function Navbar(props) {
       href: "/archive"
     },
     {
-      label: "Front-end developer Henrik Cheng",
-      href: "https://henrikcheng.github.io/react-ts/"
+      label: "Architect Mariia Smoliakova",
+      href: "/"
     }
   ];
 
@@ -78,8 +78,8 @@ export default function Navbar(props) {
                         sizes="(max-width: 640px) 100vw, 200px"
                       />
                     ) : (
-                      <span className="block text-center">
-                        Stablo
+                      <span className="block whitespace-nowrap text-center">
+                        Portfolio
                       </span>
                     )}
                   </Link>
@@ -93,7 +93,7 @@ export default function Navbar(props) {
                       />
                     ) : (
                       <span className="block text-center">
-                        Stablo
+                        Portfolio
                       </span>
                     )}
                   </Link>
