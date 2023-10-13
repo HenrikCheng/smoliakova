@@ -14,10 +14,10 @@ export default function Hero(props) {
           className="grayscale"
         />
         <div className="absolute bottom-0 flex w-full flex-col items-center">
-          <h1 className="font-mono text-6xl font-bold tracking-widest">
+          <h1 className="font-mono text-2xl font-bold tracking-widest sm:text-4xl md:text-6xl">
             Portfolio
           </h1>
-          <h3 className="font-mono text-4xl font-bold tracking-wide">
+          <h3 className="text-md font-mono font-bold tracking-wide sm:text-2xl md:text-4xl">
             Architect Mariia Smoliakova
           </h3>
         </div>
