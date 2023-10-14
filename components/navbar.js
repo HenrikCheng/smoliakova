@@ -28,7 +28,7 @@ export default function Navbar(props) {
 
   const rightmenu = [
     {
-      label: "Archive",
+      label: "Projects",
       href: "/archive"
     },
     {
