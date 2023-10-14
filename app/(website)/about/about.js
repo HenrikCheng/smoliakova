@@ -38,15 +38,23 @@ export default function About({ authors, settings }) {
 
       <div className="prose mx-auto mt-14 text-center dark:prose-invert">
         <p>
-          We provide real-time connectivity to enable software
-          providers and financial institutions to build integrated
-          products for their small business customers.
+          Mariia Smoliakova is a visionary architect whose passion for
+          design is as boundless as her ambition. With an eye for
+          detail and a creative mind that knows no bounds, she is
+          redefining the boundaries of modern architecture. Her
+          innovative approach seamlessly blends functionality with
+          aesthetic appeal, creating spaces that inspire and captivate
+          all who encounter them.
         </p>
         <p>
-          Our API infrastructure is leveraged by clients ranging from
-          lenders to corporate card providers and business forecasting
-          tools, with use cases including automatic reconciliation,
-          business dashboarding, and loan decisioning.
+          Embracing a philosophy that marries sustainability with
+          elegance, Mariia envisions structures that harmonize with
+          their surroundings, leaving a minimal ecological footprint
+          while maximizing the use of natural light and space. Her
+          dedication to environmental consciousness is evident in
+          every project she undertakes, setting a precedent for a more
+          sustainable and conscious future in the world of
+          architecture.
         </p>
         <p>
           <Link href="/contact">Get in touch</Link>
