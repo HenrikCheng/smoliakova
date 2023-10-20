@@ -38,23 +38,25 @@ export default function About({ authors, settings }) {
 
       <div className="prose mx-auto mt-14 text-center dark:prose-invert">
         <p>
-          Mariia Smoliakova is a visionary architect whose passion for
-          design is as boundless as her ambition. With an eye for
-          detail and a creative mind that knows no bounds, she is
-          redefining the boundaries of modern architecture. Her
-          innovative approach seamlessly blends functionality with
-          aesthetic appeal, creating spaces that inspire and captivate
-          all who encounter them.
+          As a curious person who loves architecture and urban design,
+          I admire the complexity of urban and natural environments.
+          It is fascinating how every element affects the life of
+          people and the living organisms through interaction with
+          buildings, spaces, nature and other people.
         </p>
         <p>
-          Embracing a philosophy that marries sustainability with
-          elegance, Mariia envisions structures that harmonize with
-          their surroundings, leaving a minimal ecological footprint
-          while maximizing the use of natural light and space. Her
-          dedication to environmental consciousness is evident in
-          every project she undertakes, setting a precedent for a more
-          sustainable and conscious future in the world of
-          architecture.
+          I have training in Architecture from my Bachelor’s degree
+          and recently graduated from the Master&apos;s program in
+          Sustainable Urban Planning and Design program (SUPD) at KTH
+          with a major in architecture.
+        </p>
+        <p>
+          The master&apos;s thesis that Lamia Ahmed and I were working
+          on during our last semester at the SUPD program recently
+          received recognition by two awards: scholarship for the best
+          degree projects in Applied Urban Design funded by Birthe &
+          Per Arwidssons Stiftelse and KTH; and Student Award 2021 by
+          ISOCARP.
         </p>
         <p>
           <Link href="/contact">Get in touch</Link>
