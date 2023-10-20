@@ -85,12 +85,14 @@ export default function Navbar(props) {
                   </Link>
                   <Link href="/" className="hidden w-28 dark:block">
                     {props.logoalt ? (
-                      <Image
-                        {...urlForImage(props.logoalt)}
-                        alt="Logo"
-                        priority={true}
-                        sizes="(max-width: 640px) 100vw, 200px"
-                      />
+                      <div className="dark:rounded-full dark:bg-slate-500 dark:p-2.5">
+                        <Image
+                          {...urlForImage(props.logoalt)}
+                          alt="Logo"
+                          priority={true}
+                          sizes="(max-width: 640px) 100vw, 200px"
+                        />
+                      </div>
                     ) : (
                       <span className="block text-center">
                         Portfolio
