@@ -39,6 +39,15 @@ export default function Navbar(props) {
 
   const mobilemenu = [...leftmenu, ...rightmenu];
 
+  console.log(
+    "🚀 ~ file: navbar.js:181 ~ Navbar ~ props.logo:",
+    props.logo
+  );
+  console.log(
+    "🚀 ~ file: navbar.js:181 ~ Navbar ~ props.logoalt:",
+    props.logoalt
+  );
+
   return (
     <Container>
       <nav>
