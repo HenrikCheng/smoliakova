@@ -39,15 +39,6 @@ export default function Navbar(props) {
 
   const mobilemenu = [...leftmenu, ...rightmenu];
 
-  console.log(
-    "🚀 ~ file: navbar.js:181 ~ Navbar ~ props.logo:",
-    props.logo
-  );
-  console.log(
-    "🚀 ~ file: navbar.js:181 ~ Navbar ~ props.logoalt:",
-    props.logoalt
-  );
-
   return (
     <Container>
       <nav>
@@ -79,7 +70,7 @@ export default function Navbar(props) {
                 </div>
                 <div className="flex w-full items-center justify-between md:w-auto">
                   <Link href="/" className="w-28 dark:hidden">
-                    {props.logo ? (
+                    {props.logo.asset ? (
                       <Image
                         {...urlForImage(props.logo)}
                         alt="Logo"
@@ -93,7 +84,7 @@ export default function Navbar(props) {
                     )}
                   </Link>
                   <Link href="/" className="hidden w-28 dark:block">
-                    {props.logoalt ? (
+                    {props.logoalt.asset ? (
                       <div className="dark:rounded-full dark:bg-slate-500 dark:p-2.5">
                         <Image
                           {...urlForImage(props.logoalt)}
